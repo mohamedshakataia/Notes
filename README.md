@@ -1,17 +1,29 @@
-# notes
+# 📝 Notes App
 
-A new Flutter project.
+A Flutter application for creating, editing, and managing personal notes locally with persistent storage using Hive and Cubit state management.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎨 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📝 **Manage Notes**: Create, edit, and delete notes seamlessly.
+- 🎨 **Custom Note Colors**: Assign different colors to organize and distinguish notes.
+- 💾 **Local Persistence**: Save notes locally on the device using **Hive** database for instant offline access.
+- ⚡ **State Management**: Built using **Cubit / Bloc** for efficient state handling (Notes Loading, Adding, Success).
+- 📱 **Interactive UI**: Modal bottom sheet interface for adding notes and a clean grid/list view.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies
+
+- Flutter
+- Dart
+- Material Design
+- `hive` & `hive_flutter` (Local NoSQL Database)
+- `flutter_bloc` (Cubit State Management)
+
+---
+
+## 🎯 Project Purpose
+
+This project was created to master local database integration using **Hive**, build custom data adapters (`TypeAdapter`), manage local CRUD operations, implement **Cubit/Bloc** state management, and design smooth modal bottom sheets in Flutter.
